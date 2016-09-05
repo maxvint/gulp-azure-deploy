@@ -1,9 +1,10 @@
 {
   "name": "gulp-azure-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another gulp deploy plugin for uploading files to Azure Blob Storage and downloading files from Azure Blob and set container Blob Public.",
   "main": "index.js",
   "scripts": {
+    "dev": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,14 +24,21 @@
   "homepage": "https://github.com/yuwenhui/gulp-azure-deploy#readme",
   "dependencies": {
     "async": "^0.9.0",
-    "azure-storage": "^0.4.2",
+    "azure-storage": "^1.3.0",
     "chalk": "^0.5.1",
     "gulp-util": "^3.0.2",
     "mime": "^1.2.11",
     "object-assign": "^2.0.0",
-    "through2": "^0.6.3"
+    "through2": "^0.6.3",
+    "queue": "^3.0.10",
+    "progress": "^1.1.8",
+    "vinyl": "^0.4.5",
+    "vinyl-fs": "^0.3.13",
+    "event-stream": "^3.3.4",
+    "delayed-stream": "0.0.6"
   },
   "devDependencies": {
+    "gulp-webserver": "^0.9.1",
     "assert": "^1.3.0",
     "dotenv": "^0.4.0",
     "mocha": "^2.1.0"

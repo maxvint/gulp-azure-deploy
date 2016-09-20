@@ -1,6 +1,6 @@
 {
   "name": "gulp-azure-deploy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yet another gulp deploy plugin for uploading files to Azure Blob Storage and downloading files from Azure Blob and set container Blob Public.",
   "main": "index.js",
   "scripts": {
